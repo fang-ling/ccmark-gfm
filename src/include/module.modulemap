@@ -1,4 +1,17 @@
 module cmark_gfm {
   umbrella header "cmark-gfm.h"
+  header "html.h"
+  header "plugin.h"
+  header "map.h"
+  header "footnotes.h"
+  header "parser.h"
+  header "scanners.h"
+  header "registry.h"
+  header "syntax_extension.h"
+  header "inlines.h"
+  header "houdini.h"
+  header "iterator.h"
+  header "render.h"
+  header "utf8.h"
   export *
 }
