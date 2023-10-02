@@ -1,5 +1,6 @@
 module cmark_gfm {
   umbrella header "cmark-gfm.h"
+  header "cmark-gfm-extension_api.h"
   header "html.h"
   header "plugin.h"
   header "map.h"
